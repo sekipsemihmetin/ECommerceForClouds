@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceForClouds", "ECommerceForClouds\ECommerceForClouds.csproj", "{BE57DA23-5F65-48A0-BD90-FCCF902E8020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{18F67531-4354-4C17-9958-9CA70161F149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{01AF04D8-5661-4A2F-8511-824C536ADC30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE57DA23-5F65-48A0-BD90-FCCF902E8020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE57DA23-5F65-48A0-BD90-FCCF902E8020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE57DA23-5F65-48A0-BD90-FCCF902E8020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE57DA23-5F65-48A0-BD90-FCCF902E8020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F67531-4354-4C17-9958-9CA70161F149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F67531-4354-4C17-9958-9CA70161F149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F67531-4354-4C17-9958-9CA70161F149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F67531-4354-4C17-9958-9CA70161F149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01AF04D8-5661-4A2F-8511-824C536ADC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01AF04D8-5661-4A2F-8511-824C536ADC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01AF04D8-5661-4A2F-8511-824C536ADC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01AF04D8-5661-4A2F-8511-824C536ADC30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BE1FECC-7303-4F71-8872-DED92353F77B}
+	EndGlobalSection
+EndGlobal

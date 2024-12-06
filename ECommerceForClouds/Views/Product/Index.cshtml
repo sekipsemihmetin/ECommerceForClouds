@@ -1,0 +1,32 @@
+﻿@model List<ProductViewModel>
+
+<div class="container mt-4">
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; margin-bottom: 1rem;">
+                    <img src="@(product.PhotoUrl ?? "/images/default.jpg")" class="card-img-top" alt="@product.Name" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.Explanation</p>
+                        <p class="card-text"><strong>Color:</strong> @product.Color</p>
+                        <p class="card-text"><strong>Size:</strong> @product.Size</p>
+                        <p class="card-text"><strong>Stock:</strong> @product.Stock</p>
+                        <p class="card-text"><strong>Price:</strong> $@product.Price</p>
+                       
+                    </div>
+                    <form  method="post" enctype="multipart/form-data" asp-controller="Product" asp-action="AddToBasket">
+                        <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-shopping"></i></button>
+                        <input type="hidden" name="productId" asp-for="@product.Id " value="@product.Id"/>
+                        <input type="hidden" name="userId" asp-for="@product.UserId " value="1" />
+                    </form>
+               
+                    
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
